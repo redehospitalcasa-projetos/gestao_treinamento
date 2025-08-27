@@ -1,12 +1,12 @@
-# Sistema de Gestão de Reuniões e Presenças
+# 📘 Sistema de Gestão de Treinamentos e Presenças
 
-Este projeto tem como objetivo criar uma aplicação simples para auxiliar o setor de RH no registro e acompanhamento de reuniões e presenças de funcionários.  
+Este projeto tem como objetivo criar uma aplicação simples para auxiliar o setor de RH no registro e acompanhamento de **treinamentos** e **presenças** de funcionários.  
 
 O sistema deve permitir:  
-- Cadastro de reuniões.  
+- Cadastro de treinamentos.  
 - Cadastro de funcionários.  
 - Registro de ponto (entrada, saída, etc).  
-- Controle de presença dos funcionários em reuniões.  
+- Controle de presença dos funcionários em treinamentos.  
 
 ---
 
@@ -18,9 +18,10 @@ O sistema deve permitir:
 ---
 
 ## 📋 Funcionalidades mínimas
-### Reuniões
-- Criar, listar e visualizar reuniões.  
-- Após a criação, cada reunião deve ter um **painel** para configurar presenças.  
+
+### Treinamentos
+- Criar, listar e visualizar treinamentos.  
+- Após a criação, cada treinamento deve ter um **painel** para configurar presenças.  
 - No painel, deve ser possível **adicionar/remover funcionários** (pré-cadastrados) na lista de presença.  
 
 ### Funcionários
@@ -39,8 +40,8 @@ O sistema deve permitir:
 - Organização mínima de frontend e backend.  
 - Fluxo básico funcionando:  
   1. Cadastro de funcionário.  
-  2. Cadastro de reunião.  
-  3. Marcação de presença no painel da reunião.  
+  2. Cadastro de treinamento.  
+  3. Marcação de presença no painel do treinamento.  
   4. Consulta de registros.  
 - Código claro e organizado.  
 
@@ -49,7 +50,7 @@ O sistema deve permitir:
 ## 💡 Pontos de evolução (opcional)
 Esses pontos não são obrigatórios, mas podem enriquecer o projeto:  
 - Sistema de autenticação/login.  
-- Relatórios (exemplo: total de presenças por reunião, funcionários mais assíduos, etc).  
+- Relatórios (exemplo: total de presenças por treinamento, funcionários mais assíduos, etc).  
 - Exportação de relatórios (CSV/PDF).  
 - Interface responsiva.  
 - Dashboard com estatísticas.  
